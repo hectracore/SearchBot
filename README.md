@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ Features — എന്തൊക്കെ ഉണ്ട്?
+## ✨ Features
 
 - [x] 🎬 **Stream & Download** — Online streaming with shortner support
 - [x] 🔐 **Multi FSub Support** — Multiple force subscribe channels
