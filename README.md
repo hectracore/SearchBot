@@ -1,7 +1,4 @@
-# 🔍 ProSearchBot
-
-> **Advanced Telegram Auto Filter & Media Search Bot** — Pyrogram & MongoDB ഉപയോഗിച്ച് build ചെയ്ത powerful bot.  
-> Telegram channel admins നു media files automatically filter ചെയ്ത് users ന് deliver ചെയ്യാൻ help ചെയ്യുന്ന feature-rich bot ആണ് ഇത്.
+### 🔍 ProSearchBot
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
