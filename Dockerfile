@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y && \
     apt install -y --no-install-recommends git && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /Codeflix_Bots
+WORKDIR /hectracore
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir --upgrade pip --root-user-action=ignore && \
@@ -17,11 +17,10 @@ CMD ["python3", "bot.py"]
 
 ## vps deploy commands 
 
-# mkdir Deendayal_botz
-# cd Deendayal_botz
+# mkdir @muzxfir
+# cd @muzxfir
 # python3 -m venv venv
 # source venv/bin/activate
-# git clone https://github.com/Deendayal403/Deendayal_dhakad.git
-# cd Deendayal_dhakad
+# cd @muzxfir
 # pip install -r requirements.txt
 # python3 bot.py
