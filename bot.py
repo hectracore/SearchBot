@@ -18,7 +18,7 @@ from info import *
 from utils import temp
 from Script import script
 from plugins import web_server, check_expired_premium
-from SearchBot.Bot import Sadie
+from SearchBot.Bot import Sadiebot
 from SearchBot.util.keepalive import ping_server
 from SearchBot.Bot.clients import initialize_clients
 
