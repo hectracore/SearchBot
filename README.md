@@ -1,184 +1,92 @@
-### 🔍 ProSearchBot
+## features
+- [x] 𝑺𝒉𝒐𝒓𝒕𝒏𝒆𝒓 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒊𝒏 𝑺𝒕𝒓𝒆𝒂𝒎 𝒂𝒏𝒅 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝒇𝒆𝒂𝒕𝒖𝒓𝒆
+- [x] 𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈, 𝑨𝒇𝒕𝒆𝒓𝒏𝒐𝒐𝒏, 𝑬𝒗𝒆𝒏𝒊𝒏𝒈, 𝑵𝒊𝒈𝒉𝒕 𝒘𝒊𝒔𝒉𝒆𝒔 
+- [x] 𝑴𝒖𝒍𝒕𝒊 𝑭𝒔𝒖𝒃 𝑺𝒖𝒑𝒑𝒐𝒓𝒕
+- [x] 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝒕𝒐 𝒋𝒐𝒊𝒏 𝒊𝒏 𝑭𝒔𝒖𝒃
+- [x] 𝑩𝒆𝒔𝒕 𝑺𝒕𝒓𝒆𝒂𝒎𝒊𝒏𝒈 𝑾𝒆𝒃𝒔𝒊𝒕𝒆
+- [x] 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝒎𝒆𝒎𝒃𝒆𝒓𝒔𝒉𝒊𝒑 𝒎𝒂𝒏𝒂𝒈𝒆𝒎𝒆𝒏𝒕 
+- [x] 𝐶𝑢𝑠𝑡𝑜𝑚 𝑆ℎ𝑜𝑟𝑡𝑛𝑒𝑟 ( 𝐴𝑙𝑙 𝑊𝑒𝑏𝑠𝑖𝑡𝑒𝑠 )
+- [x] 𝑆𝑡𝑟𝑒𝑎𝑚 𝑜𝑛𝑙𝑖𝑛𝑒 𝑎𝑛𝑑 𝐹𝑎𝑠𝑡 𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑
+- [x] 𝐼𝑀𝐷𝐵 𝑇𝑒𝑚𝑝𝑙𝑎𝑡𝑒 𝑆𝑒𝑡
+- [x] 𝐼𝑛𝑑𝑒𝑥𝑒𝑠 𝐹𝑖𝑙𝑒𝑠 𝑎𝑏𝑜𝑣𝑒 2𝐺𝐵
+- [x] 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎𝑛𝑑 𝐶𝑎𝑚𝑅𝑖𝑝 𝐷𝑒𝑙𝑒𝑡𝑒 𝑀𝑜𝑑𝑒
+- [x] 𝑀𝑢𝑙𝑡𝑖𝑝𝑙𝑒 𝐹𝑖𝑙𝑒 𝐷𝑒𝑙𝑒𝑡𝑖𝑜𝑛
+- [x] 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠 𝑀𝑒𝑛𝑢
+- [x] 𝐹𝑜𝑟𝑐𝑒 𝑆𝑢𝑏𝑠𝑐𝑟𝑖𝑝𝑡𝑖𝑜𝑛
+- [x] 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑀𝑒𝑠𝑠𝑎𝑔𝑒
+- [x] 𝐴𝑢𝑡𝑜𝑚𝑎𝑡𝑖𝑐 𝐹𝑖𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟𝑖𝑛𝑔
+- [x] 𝐷𝑜𝑢𝑏𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟 𝐵𝑢𝑡𝑡𝑜𝑛
+- [x] 𝑆𝑖𝑛𝑔𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟 𝐵𝑢𝑡𝑡𝑜𝑛
+- [x] 𝐵𝑜𝑡 𝑃𝑀 𝐹𝑖𝑙𝑒 𝑆𝑒𝑛𝑑 𝑀𝑜𝑑𝑒
+- [x] 𝐴𝑢𝑡𝑜 𝐹𝑖𝑙𝑒 𝑆𝑒𝑛𝑑
+- [x] 𝐹𝑜𝑟𝑤𝑎𝑟𝑑 𝑅𝑒𝑠𝑡𝑟𝑖𝑐𝑡𝑖𝑜𝑛
+- [x] 𝐹𝑖𝑙𝑒 𝑃𝑟𝑜𝑡𝑒𝑐𝑡
+- [x] 𝑀𝑎𝑛𝑢𝑎𝑙 𝐹𝑖𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟𝑖𝑛𝑔
+- [x] 𝐺𝑙𝑜𝑏𝑎𝑙 𝐹𝑖𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟𝑖𝑛𝑔
+- [x] 𝐼𝑀𝐷𝐵
+- [x] 𝐴𝑑𝑚𝑖𝑛 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+- [x] 𝑈𝑠𝑒𝑟 𝐵𝑟𝑜𝑎𝑑𝑐𝑎𝑠𝑡
+- [x] 𝐺𝑟𝑜𝑢𝑝 𝐵𝑟𝑜𝑎𝑑𝑐𝑎𝑠𝑡
+- [x] 𝐼𝑛𝑑𝑒𝑥
+- [x] 𝐼𝑀𝐷𝐵 𝑠𝑒𝑎𝑟𝑐ℎ
+- [x] 𝐼𝑛𝑙𝑖𝑛𝑒 𝑆𝑒𝑎𝑟𝑐ℎ
+- [x] 𝑅𝑎𝑛𝑑𝑜𝑚 𝑝𝑖𝑐𝑠
+- [x] 𝑖𝑑𝑠 𝑎𝑛𝑑 𝑈𝑠𝑒𝑟 𝑖𝑛𝑓𝑜 
+- [x] 𝑆𝑡𝑎𝑡𝑠
+- [x] 𝑈𝑠𝑒𝑟𝑠
+- [x] 𝐶ℎ𝑎𝑡𝑠
+- [x] 𝑈𝑠𝑒𝑟 𝐵𝑎𝑛
+- [x] 𝑈𝑠𝑒𝑟 𝑈𝑛𝑏𝑎𝑛
+- [x] 𝐶ℎ𝑎𝑡 𝐿𝑒𝑎𝑣𝑒
+- [x] 𝐶ℎ𝑎𝑡 𝐷𝑖𝑠𝑎𝑏𝑙𝑒
+- [x] Ai.𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝐶ℎ𝑒𝑐𝑘 𝐹𝑒𝑎𝑡𝑢𝑟𝑒
+- [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
+- [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
+- [x] Refer future
+- [x] Redeem Code Future
+- [x] Top Trending future
+- [x] Most Search
+- [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Pyrogram-Pyrofork-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MongoDB-Motor-brightgreen?style=for-the-badge&logo=mongodb" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
-</p>
+and more....
 
----
-
-## ✨ Features
-
-- [x] 🎬 **Stream & Download** — Online streaming with shortner support
-- [x] 🔐 **Multi FSub Support** — Multiple force subscribe channels
-- [x] 💎 **Premium Membership** — Full premium user management system
-- [x] 🔗 **Custom Shortlink** — All shortner websites support
-- [x] 🎞️ **IMDB Integration** — Auto poster & movie info with custom template
-- [x] 📂 **Auto File Indexing** — 2GB ൽ കൂടുതൽ ഉള്ള files index ചെയ്യാം
-- [x] 🗑️ **PreDVD & CamRip Delete** — Low quality files auto delete
-- [x] ⚙️ **Settings Menu** — Per group customizable settings
-- [x] 🤖 **AI Spelling Check** — Smart AI-based search correction
-- [x] 📢 **Broadcast** — User & Group broadcast support
-- [x] 🔍 **Inline Search** — Search files inline anywhere
-- [x] 🌅 **Auto Greetings** — Morning / Afternoon / Evening / Night wishes
-- [x] 🛡️ **File Protect** — Forward restriction & file protection
-- [x] 📁 **Manual & Global Filters** — Double & single filter button support
-- [x] 📬 **Bot PM File Send** — Files directly in PM
-- [x] 🔄 **Referral System** — Refer & earn feature
-- [x] 🎟️ **Redeem Code** — Premium code generation & redemption
-- [x] 📊 **Top Trending & Most Search** — Trending file tracker
-- [x] 🌐 **Request to Join FSub** — Auto join request handling
-- [x] 🗂️ **File Store** — Bulk file link generation
-- [x] ⏱️ **Auto Delete** — Timed message auto deletion
-- [x] 🖼️ **Image Tools** — Upscale, remove background, generate AI images
-- [x] 🤖 **Multi AI Support** — Gemini, Bard, GPT, LLaMA, Mistral
-- [x] 📺 **Anime Search** — Anime info lookup
-- [x] 🔗 **Torrent Search** — Torrent file finder
-- [x] And much more...
-
----
-
-## 👤 User Commands
-
-| Command | Description |
-|---|---|
-| `/start` | Bot start ചെയ്യുക |
-| `/connect` | PM ൽ group connect ചെയ്യുക |
-| `/disconnect` | Group disconnect ചെയ്യുക |
-| `/connections` | Connected groups കാണുക |
-| `/settings` | Bot settings change ചെയ്യുക |
-| `/shortlink` | Shortner website set ചെയ്യുക |
-| `/shortlink_info` | Current shortlink info കാണുക |
-| `/set_tutorial` | Download tutorial video set ചെയ്യുക |
-| `/remove_tutorial` | Tutorial video remove ചെയ്യുക |
-| `/plan` | Available premium plans കാണുക |
-| `/myplan` | നിങ്ങളുടെ current plan കാണുക |
-| `/redeem` | Redeem code use ചെയ്യുക |
-| `/id` | Telegram ID കാണുക |
-| `/info` | User info കാണുക |
-| `/stats` | Database stats കാണുക |
-| `/imdb` | IMDB search ചെയ്യുക |
-| `/search` | Files search ചെയ്യുക |
-| `/filter` | Manual filter add ചെയ്യുക |
-| `/filters` | Group filters കാണുക |
-| `/viewfilters` | All filters list |
-| `/link` | Single post link create ചെയ്യുക |
-| `/batch` | Bulk posts link create ചെയ്യുക |
-| `/top_search` | Top searched files കാണുക |
-| `/trendlist` | Trending files list |
-| `/stream` | File online stream ചെയ്യുക |
-| `/request` | File request ചെയ്യുക |
-| `/ping` | Bot ping check ചെയ്യുക |
-| `/alive` | Bot alive check ചെയ്യുക |
-| `/repo` | Bot GitHub repo കാണുക |
-| `/github` | GitHub link |
-| `/font` | Text to fancy font convert |
-| `/image` | Image search ചെയ്യുക |
-| `/imagine` | AI image generate ചെയ്യുക |
-| `/anime` | Anime info search |
-| `/carbon` | Code to image (carbon) |
-| `/rmbg` | Image background remove |
-| `/upscale` | Image upscale ചെയ്യുക |
-| `/torrent` | Torrent search |
-| `/written` | Text to handwriting |
-| `/json` | Message JSON view |
-| `/stickerid` | Sticker ID get ചെയ്യുക |
-| `/gemini` | Gemini AI ൽ ചോദിക്കുക |
-| `/geminivision` | Image analyze with Gemini |
-| `/bard` | Bard AI ൽ ചോദിക്കുക |
-| `/gpt` | GPT AI ൽ ചോദിക്കുക |
-| `/llama` | LLaMA AI ൽ ചോദിക്കുക |
-| `/mistral` | Mistral AI ൽ ചോദിക്കുക |
-
----
-
-## 🔐 Admin Only Commands
-
-| Command | Description |
-|---|---|
-| `/broadcast` | Users ന് broadcast ചെയ്യുക (reply) |
-| `/grp_broadcast` | Groups ലേക്ക് broadcast (reply) |
-| `/ban` | User നെ bot ൽ നിന്ന് ban ചെയ്യുക |
-| `/unban` | User നെ unban ചെയ്യുക |
-| `/users` | Bot use ചെയ്യുന്ന users list |
-| `/chats` | Bot ഉള്ള groups list |
-| `/delete` | DB യിൽ നിന്ന് specific file delete |
-| `/deleteall` | DB യിലെ all files delete |
-| `/deletefiles` | PreDVD & CamRip files delete |
-| `/add_premium` | User നെ premium ആക്കുക |
-| `/remove_premium` | User നെ premium ൽ നിന്ന് remove |
-| `/premium_users` | Premium users list |
-| `/get_premium` | Premium user details |
-| `/add_redeem` | Redeem code create ചെയ്യുക |
-| `/enable` | Group ൽ bot enable ചെയ്യുക |
-| `/disable` | Group ൽ bot disable ചെയ്യുക |
-| `/leave` | Group ൽ നിന്ന് leave ചെയ്യുക |
-| `/invite` | Group ലേക്ക് bot invite |
-| `/set_template` | IMDB template set ചെയ്യുക |
-| `/channel` | Channel management |
-| `/logs` | Bot logs കാണുക |
-| `/mongo` | MongoDB info |
-| `/system` | Server system stats |
-| `/restart` | Bot restart ചെയ്യുക |
-| `/reqmode` | Request mode set |
-| `/reqtime` | Request time limit set |
-| `/setskip` | File skip size set |
-| `/clear_junk` | Junk files clear ചെയ്യുക |
-| `/verification` | Verification toggle |
-| `/eval` | Python code execute ചെയ്യുക |
-
----
-
-## 🛠️ Built With — ഉപയോഗിച്ച Technologies
-
-| Technology | Purpose |
-|---|---|
-| [Pyrofork](https://github.com/Mayuri-Chan/pyrofork) | Telegram MTProto client |
-| [MongoDB + Motor](https://motor.readthedocs.io/) | Async database |
-| [aiohttp + Jinja2](https://docs.aiohttp.org/) | Web server & templates |
-| [Google Gemini AI](https://ai.google.dev/) | AI features |
-| [Cinemagoer (IMDB)](https://github.com/cinemagoer/cinemagoer) | Movie metadata |
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | YouTube downloading |
-| [Instaloader](https://instaloader.github.io/) | Instagram media |
-| [APScheduler](https://apscheduler.readthedocs.io/) | Scheduled tasks |
-
----
-
-## 🚀 Deploy ചെയ്യുന്ന വിധം
-
-### Koyeb
-1. Fork this repo
-2. Koyeb dashboard → **Create Service → GitHub**
-3. Entry point: `python bot.py`
-4. Environment variables set ചെയ്യുക
-
-### Render
-1. Fork this repo
-2. New **Background Worker** create ചെയ്യുക (Web Service അല്ല!)
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `python bot.py`
-
-### Environment Variables
-
-```env
-API_ID        = Your Telegram API ID
-API_HASH      = Your Telegram API Hash
-BOT_TOKEN     = Your Bot Token
-ADMINS        = Your Telegram User ID
-CHANNELS      = Channel ID for auto indexing
-LOG_CHANNEL   = Log channel ID
-DATABASE_URI  = MongoDB connection URI
-DATABASE_NAME = MongoDB database name
-```
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">Made with ❤️ using Python & Pyrogram</p>
+## ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇʀs ᴄᴏᴍᴍᴀɴᴅs
+- [x] start - ꜱᴛᴀʀᴛ ᴍᴇ...
+- [x] connect - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪɴ ᴘᴍ...
+- [x] shortlink - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ...
+- [x] set_tutorial - ꜱᴇᴛ ʏᴏᴜʀ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ...
+- [x] remove_tutorial - ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ...
+- [x] settings - ᴄʜᴀɴɢᴇ ʙᴏᴛ ꜱᴇᴛᴛɪɴɢꜱ...
+- [x] disconnect - ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ...
+- [x] connections - ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘꜱ...
+- [x] plan - ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ...
+- [x] myplan - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴜɴᴛ ᴘʟᴀɴ...
+- [x] stats - ᴄʜᴇᴄᴋ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ...
+- [x] info - ɢᴇᴛ ᴜꜱᴇʀ ɪɴꜰᴏ...
+- [x] id - ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ...
+- [x] shortlink_info - ɢᴇᴛ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ɪɴꜰᴏ...
+- [x] shorlinkon - ᴏɴ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ꜰʀᴏᴍ ɢʀᴘ...
+- [x] shortlinkoff - ᴏꜰꜰ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ꜰʀᴏᴍ ɢʀᴘ...
+- [x] link - ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ꜰᴏʀ ᴏɴᴇ ᴘᴏꜱᴛ...
+- [x] batch - ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ꜰᴏʀ ʙᴜʟᴋ ᴘᴏꜱᴛꜱ...
+- [x] deleteall - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴅʙ...
+- [x] delete - ᴅᴇʟᴇᴛᴇ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ...
+- [x] deletefiles - ᴅᴇʟᴇᴛᴇ ᴘʀᴇᴅᴠᴅ ᴀɴᴅ ᴄᴀᴍʀɪᴘ ꜰɪʟᴇꜱ...
+- [x] broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴜꜱᴇʀꜱ...
+- [x] grp_broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ɢʀᴏᴜᴘꜱ...
+- [x] enable - ᴇɴᴀʙʟᴇ ᴛᴏ ᴊᴏɪɴ ɪɴ ɢʀᴏᴜᴘ...
+- [x] disable - ᴅɪꜱᴀʙʟᴇ ᴀɴʏ ɢʀᴏᴜᴘ...
+- [x] leave - ʟᴇᴀᴠᴇ ꜰʀᴏᴍ ᴀɴʏ ɢʀᴏᴜᴘ...
+- [x] ban - ʙᴀɴ ᴜꜱᴇʀ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ...
+- [x] unban - ᴜɴʙᴀɴ ᴜꜱᴇʀ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ...
+- [x] add_redeem - to create redeem code
+- [x] add_premium - ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ...
+- [x] remove_premium - ʀᴇᴍᴏᴠᴇ ᴀɴʏ ᴜꜱᴇʀ ꜰʀᴏᴍ ᴘʀᴇᴍɪᴜᴍ...
+- [x] premium_users - ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ...
+- [x] restart - ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ...
+- [x]  ᴜsᴇʀs - ᴛᴏ ᴠɪᴇᴡ ᴏғ ʟɪsᴛᴏғ ᴜsᴇʀs, ᴜsɪɴɢ ʙᴏᴛ [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ]
+- [x]  ʙʀᴏᴀᴅᴄᴀsᴛ - ᴍᴇssᴀɢᴇ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴍᴀɴᴅ [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ]
+- [x]  ʙᴀɴ - ʟᴇᴛs ʏᴏᴜ ʙᴀɴ ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜᴏᴜᴛ ɢɪᴠɪɴɢ ʜɪᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴜsɪɴɢ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ. [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ].
+- [x]  sᴇᴛᴛɪɴɢs - ʟᴇᴛs ʏᴏᴜ ᴍᴀɴᴀɢᴇ ᴀʟʟ ᴛʜᴇ Bᴏᴛ sᴇᴛᴛɪɴɢs ɪɴ ᴀ ɢʀᴏᴜᴘ.  [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ]
+- [x]  ᴍᴜᴛᴇ/ᴋɪᴄᴋ - ʟᴇᴛs ʏᴏᴜ ʀᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ ɢʀᴏᴜᴘ's ʙʟᴀᴄᴋʟɪsᴛ, ɢɪᴠɪɴɢ ᴛʜᴇᴍ ᴛʜᴇ ᴘᴏssɪʙɪʟɪᴛʏ ᴛᴏ Jᴏɪɴ ᴀɢᴀɪɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪɴᴋ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.  [ғᴏʀ ᴀᴅᴍɪɴs ᴜsᴇ ᴏɴʟʏ].
+</details>
