@@ -1,5 +1,5 @@
 {
-    "name": "Sujan auto Filter",
+    "name": "SesrchBot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/codeflix-bots/autofilter",
-    "repository": "/codeflix-bots/autofilter",
+    "website": "https://github.com/hectracore/SearchBot",
+    "repository": "/hectracore/SearchBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
