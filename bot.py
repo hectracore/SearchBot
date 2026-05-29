@@ -18,7 +18,7 @@ from info import *
 from utils import temp
 from Script import script
 from plugins import web_server, check_expired_premium
-from SearchBot.Bot import Search
+from SearchBot.Bot import Sadie
 from SearchBot.util.keepalive import ping_server
 from SearchBot.Bot.clients import initialize_clients
 
@@ -39,10 +39,10 @@ files = glob.glob(ppath)
 
 async def Search_start():
     print('\n')
-    print('\nInitalizing Sujan')
-    await Search.start()
-    bot_info = await Search.get_me()
-    Search.username = bot_info.username
+    print('\nInitalizing Search')
+    await Sadie.start()
+    bot_info = await Sadie.get_me()
+    Sadie.username = bot_info.username
     await initialize_clients()
     for name in files:
         with open(name) as a:
@@ -54,7 +54,7 @@ async def Search_start():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
-            print("Sujan Bot Imported => " + plugin_name)
+            print("Search Bot Imported => " + plugin_name)
     if ON_HEROKU:
         asyncio.create_task(ping_server()) 
     b_users, b_chats = await db.get_banned()
