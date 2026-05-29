@@ -6,12 +6,12 @@ import secrets
 import time
 import mimetypes
 from aiohttp.http_exceptions import BadStatusLine
-from SujanBot.Bot import multi_clients, work_loads, Codeflix
-from SujanBot.server.exceptions import FIleNotFound, InvalidHash
-from SujanBot.zzint import StartTime, __version__
-from SujanBot.util.custom_dl import ByteStreamer
-from SujanBot.util.time_format import get_readable_time
-from SujanBot.util.render_template import render_page
+from SearchBot.Bot import multi_clients, work_loads, Sadie
+from SearchBot.server.exceptions import FIleNotFound, InvalidHash
+from SearchBot.zzint import StartTime, __version__
+from SearchBot.util.custom_dl import ByteStreamer
+from SearchBot.util.time_format import get_readable_time
+from SearchBot.util.render_template import render_page
 from info import *
 
 
@@ -19,7 +19,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("Sujan_Bot")
+    return web.json_response("SearchBot")
 
 
 @routes.get(r"/watch/{path:\S+}", allow_head=True)
