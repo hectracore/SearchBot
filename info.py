@@ -66,7 +66,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', '')
 DATABASE_URI2 = environ.get('DATABASE_URI2', '')
-DATABASE_NAME = environ.get('DATABASE_NAME', "SujanBotZ")
+DATABASE_NAME = environ.get('DATABASE_NAME', "SearchBot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TGFiles')
 
 # ============================
@@ -118,7 +118,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Sʜᴀʀᴇ Aɴᴅ Sᴜᴘᴘᴏʀᴛ Us')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+xOooVRGlV-JkNGJl')  # Support group link (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+8hobzP1tk4liMDI8')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -132,7 +132,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1003347671546')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
@@ -169,9 +169,9 @@ FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else 
 URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else "https://{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'sujan_ch'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'searchbot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'Deendayal'))
+name = str(environ.get('name', 'muzycore'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
