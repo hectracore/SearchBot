@@ -18,7 +18,7 @@ from info import *
 from utils import temp
 from Script import script
 from plugins import web_server, check_expired_premium
-from SearchBot.Bot import Codeflix
+from SearchBot.Bot import Search
 from SearchBot.util.keepalive import ping_server
 from SearchBot.Bot.clients import initialize_clients
 
@@ -37,12 +37,12 @@ botStartTime = time.time()
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
 
-async def Sujan_start():
+async def Search_start():
     print('\n')
     print('\nInitalizing Sujan')
-    await Codeflix.start()
-    bot_info = await Codeflix.get_me()
-    Codeflix.username = bot_info.username
+    await Search.start()
+    bot_info = await Search.get_me()
+    Search.username = bot_info.username
     await initialize_clients()
     for name in files:
         with open(name) as a:
@@ -73,13 +73,13 @@ async def Sujan_start():
     else:
         logging.info(f"Since primary DB have enough space ({free_dbSize}MB) left, It will be used for storing datas.")
     await choose_mediaDB()    
-    me = await Codeflix.get_me()
+    me = await Search.get_me()
     temp.ME = me.id
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
     temp.B_LINK = me.mention
-    Codeflix.username = '@' + me.username
-    Codeflix.loop.create_task(check_expired_premium(Codeflix))
+    Search.username = '@' + me.username
+    Search.loop.create_task(check_expired_premium(Search))
     logging.info(f"{me.first_name} with Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
     logging.info(LOG_STR)
     logging.info(script.LOGO)
@@ -87,7 +87,7 @@ async def Sujan_start():
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
-    await Codeflix.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(temp.B_LINK, today, time))
+    await Search.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(temp.B_LINK, today, time))
     app = web.AppRunner(await web_server())
     await app.setup()
     bind_address = "0.0.0.0"
@@ -97,6 +97,6 @@ async def Sujan_start():
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     try:
-        loop.run_until_complete(Sujan_start())
+        loop.run_until_complete(Search_start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
